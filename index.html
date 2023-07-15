@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SIAKWIN - Coming Soon</title>
+  <title>SIAKWIN</title>
   <link rel="icon" type="image/x-icon" href="Logo.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
@@ -16,6 +16,16 @@
         <img src="Logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-top" />
         SIAKWIN
       </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="waitlist.html">Join Waitlist</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
@@ -25,8 +35,8 @@
         <img src="Logo.png" alt="Logo" width="100" height="100" class="d-inline-block align-top mb-2" />
       </div>
       <h1 class="display-4">SIAKWIN</h1>
-      <p class="lead">Winning the war has never been this <b style="color:#FDDB3A">easy</b>.</p>
-      <a class="btn btn-primary btn-lg" href="https://instagram.com/siakwin" role="button"> <i class="fab fa-windows me-2"></i> Coming Soon</a>
+      <p class="lead">Winning the war has never been this <b style="color:#FDDB3A">easy</b>.<br>Coming August 2023.</p>
+      <a class="btn btn-primary btn-lg" href="waitlist.html" role="button">Join the Waitlist</a>
     </div>
   </header>
   
@@ -37,10 +47,6 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
   <script>
-      var accordion = new bootstrap.Collapse(document.getElementById('faqAccordion'), {
-      toggle: false // Prevent auto-closing of other items when one is opened
-    });
-
     $(document).ready(function () {
       $("a.nav-link").on("click", function (event) {
         if (this.hash !== "") {
