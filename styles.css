@@ -38,12 +38,6 @@ header.dark {
   color: #242424;
 }
 
-.btn-submitting {
-  background-color: #cbaf5a;
-  border-color: #cbaf5a;
-  color: #242424;
-}
-
 /* Price Styles */
 .price-original {
   font-size: 1rem;
