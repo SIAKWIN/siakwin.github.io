@@ -149,3 +149,9 @@ header.jumbotron {
   background-color: #181818;
   color: white;
 }
+
+/* Embedded Video Styles */
+.custom-video-container {
+  max-width: 800px; /* Set the maximum width for the video container */
+  margin: 0 auto;   /* Center the video container horizontally */
+}
