@@ -37,7 +37,10 @@
             <a class="nav-link" href="index.html#testimonials">Testimonials</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Join Waitlist</a>
+            <a class="nav-link" href="">Join Waitlist</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="SIAKWIN v0.7.zip">Download</a>
           </li>
         </ul>
       </div>
@@ -99,7 +102,7 @@
                 <b>Alert</b>: Sorry, we can't provide our services to Fasilkom.
               </div>
               <div id="warning-fib" class="alert alert-warning d-none mb-3" role="alert">
-                <b>Warning</b>: We have found oddities when used in FIB. Proceed at your own risk.
+                <b>Warning</b>: We have found oddities when used in FIB and FH. Proceed at your own risk.
               </div>
               <button type="submit" id="submit-button" class="btn btn-primary btn-send">Submit</button>
               <button class="btn btn-submitting d-none" type="button" disabled>
@@ -134,7 +137,7 @@
         warningFasilkom.classList.remove('d-none');
         warningFIB.classList.add('d-none');
         submitButton.classList.add('d-none');
-      } else if (selectedOption === 'fib') {
+      } else if (selectedOption === 'fib' || selectedOption === "fh") {
         warningFasilkom.classList.add('d-none');
         warningFIB.classList.remove('d-none');
         submitButton.classList.remove('d-none');
