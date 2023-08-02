@@ -1,6 +1,7 @@
 /* General Styles */
 body {
   font-size: 20px;
+  overflow-y: scroll;
 }
 
 @media (max-width: 1280px) {
@@ -152,6 +153,6 @@ header.jumbotron {
 
 /* Embedded Video Styles */
 .custom-video-container {
-  max-width: 800px; /* Set the maximum width for the video container */
+  max-width: 1000px; /* Set the maximum width for the video container */
   margin: 0 auto;   /* Center the video container horizontally */
 }
