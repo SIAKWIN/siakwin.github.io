@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+  font-size: 20px;
+  overflow-y: scroll;
+}
+
+@media (max-width: 1280px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Dark Mode Styles */
+body.dark {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+}
+
+body.dark {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+header.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #fddb3a;
+  border-color: #fddb3a;
+  color: #121212;
+}
+
+.btn-primary:hover {
+  background-color: #ffc61e;
+  border-color: #ffc61e;
+  color: #242424;
+}
+
+/* Price Styles */
+.price-original {
+  font-size: 1rem;
+  text-decoration: line-through;
+  color: red;
+}
+
+.price-discounted {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--accent-color);
+}
+
+/* Carousel Styles */
+#carouselAbout img {
+  max-height: 350px;
+  object-fit: cover;
+  filter: brightness(0.4);
+}
+
+#carouselTesti {
+  max-width: 100%;
+  height: 600px;
+}
+
+#carouselTesti img {
+  max-height: 600px;
+  height: auto;
+  object-fit: contain;
+  filter: brightness(0.7);
+}
+
+/* Card Styles */
+.card-deck .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background-color: #ff0000;
+}
+
+.card-body .text-center {
+  margin-top: auto;
+}
+
+.card {
+  background-color: #252525;
+  margin: 5px;
+}
+
+.card-title {
+  color: #ffffff;
+}
+
+/* Logo Styles */
+.logo-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-row i {
+  font-size: 150px;
+  margin: 0 10px;
+}
+
+.logo {
+  font-size: 40px;
+  padding: 20px;
+}
+
+/* Section Styles */
+section {
+  margin-bottom: 40px;
+}
+
+/* Text Styles */
+p,
+.card-list {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Carousel Indicator Styles */
+.carousel-indicators li {
+  display: none;
+}
+
+/* Jumbotron Styles */
+header.jumbotron {
+  margin-top: 56px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #121212;
+}
+
+/* Navbar Styles */
+.navbar-dark {
+  background-color: #121212;
+}
+
+/* FAQ Accordion Styles */
+#faqAccordion .accordion-button {
+  color: white;
+  background-color: #252525;
+}
+
+#faqAccordion .accordion-body {
+  background-color: #181818;
+  color: white;
+}
+
+/* Embedded Video Styles */
+.custom-video-container {
+  max-width: 1000px; /* Set the maximum width for the video container */
+  margin: 0 auto;   /* Center the video container horizontally */
+}
